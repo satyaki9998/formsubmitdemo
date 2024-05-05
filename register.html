@@ -14,55 +14,48 @@
   </head>
   <body>
     <div class="container">
+      <form id="Form_i">
+        <h3>NEW USER</h3>
+        <input type="text" placeholder="E-Mail" required />
+        <input type="password" placeholder="Password" required />
+        <input type="password" placeholder="Confirm Password" required />
+        <div class="btn-box">
+          <button type="button" id="Next_i">Next</button>
+        </div>
+      </form>
+      <form id="Form_ii">
+        <h3>SOCIAL LINKS</h3>
+        <input type="text" placeholder="LinkedIn" />
+        <input type="text" placeholder="Github" />
+        <input type="text" placeholder="Website/Social Media" />
+        <div class="btn-box">
+          <button type="button" id="Back_i">Back</button>
+          <button type="button" id="Next_ii">Next</button>
+        </div>
+      </form>
       <form
-        class="register-form"
+        id="Form_iii"
         action="https://formsubmit.co/satyakidasgupta@rediffmail.com"
         method="POST"
       >
-        <form id="Form_i">
-          <h3>NEW USER</h3>
-          <input type="text" placeholder="E-Mail" required />
-          <input type="password" placeholder="Password" required />
-          <input type="password" placeholder="Confirm Password" required />
-          <div class="btn-box">
-            <button type="button" id="Next_i">Next</button>
-          </div>
-        </form>
-        <form id="Form_ii">
-          <h3>SOCIAL LINKS</h3>
-          <input type="text" placeholder="LinkedIn" />
-          <input type="text" placeholder="Github" />
-          <input type="text" placeholder="Website/Social Media" />
-          <div class="btn-box">
-            <button type="button" id="Back_i">Back</button>
-            <button type="button" id="Next_ii">Next</button>
-          </div>
-        </form>
-        <form id="Form_iii">
-          <h3>PERSONAL CREDENTIALS</h3>
-          <input
-            type="text"
-            placeholder="Full Name"
-            name="Full Name"
-            required
-          />
-          <input
-            type="text"
-            placeholder="Calcutta University Registration Number"
-            name="Calcutta University Registration Number"
-            required
-          />
-          <input
-            type="text"
-            placeholder="Contact Number"
-            name="Contact Number"
-            required
-          />
-          <div class="btn-box">
-            <button type="button" id="Back_ii">Back</button>
-            <button type="submit">Submit</button>
-          </div>
-        </form>
+        <h3>PERSONAL CREDENTIALS</h3>
+        <input type="text" placeholder="Full Name" name="Full Name" required />
+        <input
+          type="text"
+          placeholder="Calcutta University Registration Number"
+          name="Calcutta University Registration Number"
+          required
+        />
+        <input
+          type="text"
+          placeholder="Contact Number"
+          name="Contact Number"
+          required
+        />
+        <div class="btn-box">
+          <button type="button" id="Back_ii">Back</button>
+          <button type="submit">Submit</button>
+        </div>
       </form>
       <dvi class="step-row">
         <div id="progress"></div>
